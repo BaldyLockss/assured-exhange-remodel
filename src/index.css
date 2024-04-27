@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Cabin Sketch", sans-serif; */
+  /* border: 1px solid black; */
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* fonts */
+  --fs-h1: 6rem;
+  --fs-h2: 4rem;
+  --fs-h1-mobile: 5rem;
+  --fs-h2-mobile: 3rem;
+  --fs-l: 2.5rem;
+  --fs-m: 1.5rem;
+  --fs-s: 1rem;
+  --fw-eb: 900;
+  --fw-b: 500;
+  --fw-n: 300;
+  --font: "Cabin Sketch",
+    sans-serif;
+  /* colors */
+  --clr-w: white;
+  --clr-blue: blue;
+  --clr-blk: black;
+  --clr-background: linear-gradient(180deg, white, rgb(60, 182, 238), white 40rem);
+  --clr-background-main: linear-gradient(180deg, rgb(60, 182, 238), white 40rem);
+  --clr-background-main-reverse: linear-gradient(180deg, white, rgb(60, 182, 238) 40rem);
+
+
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+
+}
+
+li {
+  list-style: none;
+}
+
+/* button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+} */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}

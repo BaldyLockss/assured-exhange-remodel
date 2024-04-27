@@ -1,0 +1,67 @@
+.container__main {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100svh;
+    overflow: hidden;
+}
+
+.clouds {
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+
+
+    img {
+        height: 100%;
+        width: 100%;
+        opacity: .65;
+    }
+}
+
+.house {
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    img {
+        height: 100%;
+        width: 100%;
+        opacity: .5;
+    }
+}
+
+/* .clouds {
+    position: fixed;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    transform: translateX(-200%);
+    animation: cloudMovement 140s linear infinite;
+}
+
+.clouds img {
+    width: 100%;
+    height: 100%;
+}
+
+.container__main>img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 60%;
+}
+
+@keyframes cloudMovement {
+    from {
+        tranform: translateX(-200%)
+    }
+
+    to {
+        transform: translateX(0%)
+    }
+} */
